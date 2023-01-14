@@ -102,7 +102,7 @@ ul.cuerpotexto{
 
 .titulares{
     font-size: 24px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 20px;
 }
 .precios{
     flex-grow: 0.3;
@@ -327,6 +327,7 @@ main section article i:hover {
     .deskp-article{
         display: flex;
         justify-content: space-between;
+        margin: 15px;
     }
     ul.cuerpotexto{
         font-size: 12px;
