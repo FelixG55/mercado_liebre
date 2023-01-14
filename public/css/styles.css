@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+main{
+    margin: auto;
+}
+main p input{
+    justify-content: center;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+main p button{
+    justify-content: center;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1259c3;
+    color: #FFF;
+    width: 100%;
+    transition: background-color, 1s;
+}
+main p button:hover{
+    background-color: #0022AA;  
+}
+footer{
+    margin: 40px;
+}
+.logo-search{
+    display: flex;
+    justify-content: space-between;
+}
+.logodisplay{
+
+    flex-grow: 1    ;
+    width: 40%;
+    margin: 5%;
+    /* flex-grow: 0.5; */
+}
+.searchbar{
+    width: 80%;
+    font-size: 14px;
+    padding: 2%;
+}
+.searchbar-button {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 15px;
+    /* flex-grow: 0.5; */
+    text-align: center;
+    align-self: center;
+}
+      
+.title{
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;    
+}
+
+.searchbar button{
+    padding: 1px;
+}
+.burger-menu{
+    text-align: center;
+    display: table;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    line-height:15px;
+    color: white; 
+    border-radius: 5px;  
+    background-color: #1259c3;
+}
+ul.cuerpotexto{
+    font-size: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.article-box{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    /* border-bottom: solid 10px #ebebeb; */
+}
+.box-desc-pre{
+    display: flex;
+}    
+
+.titulares{
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+}
+.precios{
+    flex-grow: 0.3;
+    font-size: 18px;
+    margin: 1px;
+}
+.descuentos{
+    flex-grow: 0.7;
+    font-size: 16px;
+    margin: 1px;
+    color: #39b54a;
+}
+.descriptores{
+    margin-top: 10px;
+    font-size:0px;
+    transition: all, 1s;
+}
+.form-log{
+    margin: 40px;
+}
+.form-reg{
+    margin: 15px;   
+    line-height: 50px;
+}
+.fecha-nac{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+article{
+    background-color: white;
+    margin: 5px;;
+    height: 100%;
+
+}
+article:hover .descriptores{
+    font-size: 16px;
+}
+article:hover{
+    font-size: 16px;
+}
+footer p{
+    text-align: center;
+    color: #858282cb;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+footer h4{
+    text-align: center;
+    color: #666;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.footericons{
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    color:  #1259c3;
+    margin-bottom: 10px;
+    transition: all,1s;
+}
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 85%;
+    bottom: 30px;
+    color: #39b54a;
+    transition: all 1s;
+}
+main section article i:hover {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 85%;
+    bottom: 30px;
+    color: #39b54a;
+    transform: rotateZ(-90deg);
+}
+
+@media (min-width: 361px){  
+    header nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header nav ul{
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+    }
+    article{
+        background-color: white;
+        width: 200px;
+        margin: 5px;
+        height: fit-content;    
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .table-article{
+        display: flex;
+        justify-content: space-around;
+        }
+        footer{
+            margin: 40px;
+        }
+        article:hover .descriptores{
+            font-size: 16px;
+        }
+}
+    
+@media (min-width: 570px){
+    main p{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    main p input{
+        justify-content: center;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        width: 50%;
+    }
+    main p button{
+        justify-content: center;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        background-color: #1259c3;
+        color: #FFF;
+        width: 50%;
+    }
+    .descriptores{
+        font-size: 0px;
+        margin-bottom: 10px;
+    }
+    article{
+        background-color: white;
+        width: 100%;
+        margin: 5px;
+        height: fit-content;    
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .table-article{
+    display: flex;
+    justify-content: space-around;
+    }
+    ul.cuerpotexto{
+        font-size: 10px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .header1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .burger-menu{
+        text-align: center;
+        display: table;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+        line-height:0px;
+        color: white; 
+        border-radius: 15px;
+        display: none;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .fecha-nac{
+        display: flex;
+       width: 50%;
+       margin: auto;
+    }
+    .titles-reg{
+        display: flex;
+        margin-left: 25%;
+    }
+    article:hover .descriptores{
+        font-size: 16px;
+    }
+}
+@media (min-width: 769px){
+
+    .descriptores{
+        font-size: 0px;
+        margin-bottom: 10px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .deskp-article{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul.cuerpotexto{
+        font-size: 12px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .burger-menu{
+        text-align: center;
+        display: table;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+        line-height:0px;
+        color: white; 
+        border-radius: 15px;
+        display: none;
+    }
+    .footer-m{
+        display: flex;
+        padding-top: 50px;
+        width: 100%;
+        background-color: #FFF;
+    }
+    .footer-s{
+        display: flex;
+        width: 100%;
+    }
+    footer{
+        margin: 40px 0 0 0;
+    }
+    article:hover .descriptores{
+        font-size: 16px;
+    }
+    .footericons:hover{
+        color: dodgerblue;
+    }
+}
